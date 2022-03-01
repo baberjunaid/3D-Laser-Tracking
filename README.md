@@ -28,4 +28,4 @@ of human body as compared to state-of-the art approaches. <p>
   
   <b> ROS Package: </b>
   
-  To be share right after paper acceptance along with bag files to validate the results. 
+  To be shared right after paper acceptance along with bag files to validate the results. 
