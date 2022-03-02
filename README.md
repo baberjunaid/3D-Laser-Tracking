@@ -1,7 +1,7 @@
 # 3D-Laser-Tracking
 This project track the person in indoor environment using 3D LiDAR. <br> 
 
-<b> Abstract</b> <br>
+##  Abstract
 
 <p> Light Detection and Ranging (LiDAR) technology
 is now becoming the main tool in many applications such as
@@ -29,3 +29,14 @@ of human body as compared to state-of-the art approaches. <p>
   <b> ROS Package: </b>
   
   To be shared right after paper acceptance along with bag files to validate the results. 
+  
+  <!-- #https://youtu.be/pKhH1pguWy8 -->
+  
+## Description
+  
+  This project tracks multiple people in an indoor environment using 3D LiDAR (Ouster) in real-time. For a given 3D point cloud, ROI is extracted that reduces the number of point clouds, [ROI Demo](https://youtu.be/pKhH1pguWy8 "ROI Demo"). Later, these ROIS are passed to voxelization and segmentation. The segmented objects later classified into person and on-person. The demo of person tracking and detection can be seen on [Tracking Demo](https://lig-membres.imag.fr/aycard/html//Projects/JuanGomez/JuanGomez.html).   
+  
+  
+  [ROI Demo](https://youtu.be/pKhH1pguWy8 "ROI Demo"), [Tracking Demo](https://lig-membres.imag.fr/aycard/html//Projects/JuanGomez/JuanGomez.html)
+
+
