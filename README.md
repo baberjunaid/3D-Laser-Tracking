@@ -34,8 +34,7 @@ of human body as compared to state-of-the art approaches. <p>
   
   <b> BAG Files: </b>
   
-  Bag Files
-  
+    
   . [Sample 1](https://cloud.univ-grenoble-alpes.fr/s/FAceq6gNddFaT2o "Sample 1")
   
 ## Description
