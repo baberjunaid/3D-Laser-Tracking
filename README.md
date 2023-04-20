@@ -32,6 +32,11 @@ of human body as compared to state-of-the art approaches. <p>
   
   <!-- #https://youtu.be/pKhH1pguWy8 -->
   
+  <b> BAG Files: </b>
+  
+  Bag Files
+  . [Sample 1](https://cloud.univ-grenoble-alpes.fr/s/FAceq6gNddFaT2o "Sample 1")
+  
 ## Description
   
   This project tracks multiple people in an indoor environment using 3D LiDAR (Ouster) in real-time. For a given 3D point cloud, ROI is extracted that reduces the number of point clouds, [ROI Demo](https://youtu.be/pKhH1pguWy8 "ROI Demo"). Later, these ROIS are passed to voxelization and segmentation. The segmented objects later classified into person and on-person. The demo of person tracking and detection can be seen on [Tracking Demo](https://lig-membres.imag.fr/aycard/html//Projects/JuanGomez/JuanGomez.html).   
