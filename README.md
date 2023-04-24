@@ -26,9 +26,34 @@ recordings taken in indoor environment. The results show great
 potential, particularly a high confidence in positive classifications
 of human body as compared to state-of-the art approaches. <p>
   
-  <b> ROS Package: </b>
+<b> ROS Package: </b>
   
-  To be shared right after paper acceptance along with bag files to validate the results. 
+  ```
+cd ~/catkin_ws/src
+```
+clone the package
+  
+   ```
+git clone https://github.com/baberjunaid/LiDAR_Tracking_3D.git
+
+```
+finally build the package  
+  
+  ```
+cd ~/catkin_ws/  
+  catkin_make  
+  source devel/setup.bash
+```
+  
+To run the launch file
+  
+  ```
+roslaunch LiDAR_Tracking_3D Track_3D.launch input:=/ouster/points
+
+```
+  
+ where /ouster/points contains the node of point cloud. We have used Ouster lidar. If you are using /velodyne_points then update the value of input accordingly. 
+
   
   <!-- #https://youtu.be/pKhH1pguWy8 -->
   
